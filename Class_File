@@ -1,0 +1,10 @@
+class MYClass:
+ int a
+ char func(string1):
+  return(string1[0:1])
+obj=MyClass()  
+with open ("number.txt") as 
+file_obj:
+ obj= file_obj.read()
+obj.func("mass")
+return obj
