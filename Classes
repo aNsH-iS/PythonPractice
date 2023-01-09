@@ -1,0 +1,8 @@
+Class ClassMy:
+ def __init__(self,sound):
+  self.sound=sound
+utensil=ClassMy(clink)
+table=ClassMy(drag)
+
+print(table.sound)
+#outputs 'drag'
